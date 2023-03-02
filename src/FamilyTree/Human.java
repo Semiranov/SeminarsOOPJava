@@ -1,9 +1,10 @@
 package FamilyTree;
 
+
 import java.time.LocalDate;
 
 
-public class Human {
+public class Human implements People{
     private String name;
     private LocalDate birthday;
     private Relationship gender;

@@ -1,4 +1,6 @@
 package FamilyTree;
+//1. Реализовать, с учетом ооп подхода, приложение Для проведения исследований с генеалогическим древом.
+//2. Обеспечить переход от использования явных классов в сторону использования абстрактных типов.
 
 
 public class Main {
@@ -11,6 +13,9 @@ public class Main {
         Human luba = new Human("Любовь", 2020, 03, 28, Relationship.WOMAN);
         Human kira = new Human("Кирилл", 2022, 03, 10, Relationship.MAN);
         Human sveta = new Human("Света", 2021, 05, 11, Relationship.WOMAN);
+
+        Animals bars = new Cat("Барсик", vova);
+        Animals jack = new Dog("Джек", lila);
 
         FamilyTree familyTree = new FamilyTree();
         familyTree.appendMather(lila,zhena);

@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7f3109-034d-49c6-8043-ca86331bdef2" name="Changes" comment="add HW1">
+    <list default="true" id="1f7f3109-034d-49c6-8043-ca86331bdef2" name="Changes" comment="add HW1 update">
+      <change afterPath="$PROJECT_DIR$/src/FamilyTree/Animals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FamilyTree/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FamilyTree/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FamilyTree/People.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FamilyTree/FamilyTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/FamilyTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FamilyTree/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FamilyTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FamilyTree/Relationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Relationship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FamilyTree/Research.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Research.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +71,20 @@
       <option name="project" value="LOCAL" />
       <updated>1677706168176</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add HW1 update">
+      <created>1677786923306</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677786923306</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="add HW1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW1" />
+    <MESSAGE value="add HW1 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW1 update" />
   </component>
 </project>

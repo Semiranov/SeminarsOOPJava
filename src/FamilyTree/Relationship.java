@@ -1,12 +1,10 @@
 package FamilyTree;
 
 enum Relationship {
-    mather,
-    father,
-    brother,
-    sister,
-    son,
-    daughter,
-    grandmother,
-    grandfather,
+    MATHER,
+    FATHER,
+    SON,
+    DAUGHTER,
+    MAN,
+    WOMAN,
 }

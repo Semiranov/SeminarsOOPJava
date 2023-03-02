@@ -9,68 +9,62 @@ public class Research {
         this.tree = tree.getTree();
     }
 
-    public ArrayList getSon(Human human) { //поиск сына
+    public void getSon(Human human) { //поиск сына
         ArrayList rez = new ArrayList<Human>();
         for (var i : tree) {
-            if (i.getPerson1() == human && (i.getRelation() == Relationship.mather || i.getRelation() == Relationship.father) &&
-                    i.getPerson2().getGender().equalsIgnoreCase("мужской"))
+            if (i.getPerson1() == human && (i.getRelation() == Relationship.MATHER || i.getRelation() == Relationship.FATHER) &&
+                    i.getPerson2().getGender() == Relationship.MAN)
                 rez.add(i.getPerson2());
         }
         System.out.println(human + ": Сын" + rez);
-        return rez;
     }
 
-    public ArrayList getDaughter(Human human) { //поиск дочери
+    public void getDaughter(Human human) { //поиск дочери
         ArrayList rez = new ArrayList<Human>();
         for (var i : tree) {
-            if (i.getPerson1() == human && (i.getRelation() == Relationship.mather || i.getRelation() == Relationship.father) &&
-                    i.getPerson2().getGender().equalsIgnoreCase("женский"))
+            if (i.getPerson1() == human && (i.getRelation() == Relationship.MATHER || i.getRelation() == Relationship.FATHER) &&
+                    i.getPerson2().getGender() == Relationship.WOMAN)
                 rez.add(i.getPerson2());
         }
         System.out.println(human + ": Дочь" + rez);
-        return rez;
     }
 
-    public ArrayList getСhild(Human human) { //поиск ребенка
+    public void getСhild(Human human) { //поиск ребенка
         ArrayList rez = new ArrayList<Human>();
         for (var i : tree) {
-            if (i.getPerson1() == human && (i.getRelation() == Relationship.mather || i.getRelation() == Relationship.father))
+            if (i.getPerson1() == human && (i.getRelation() == Relationship.MATHER || i.getRelation() == Relationship.FATHER))
                 rez.add(i.getPerson2());
         }
         System.out.println(human + ": Ребенок" + rez);
-        return rez;
     }
 
-    public ArrayList getMom(Human human) { //поиск мамы
+    public void getMom(Human human) { //поиск мамы
         ArrayList rez = new ArrayList<Human>();
         for (var i : tree) {
-            if (i.getPerson1() == human && (i.getRelation() == Relationship.daughter || i.getRelation() == Relationship.son) &&
-            i.getPerson2().getGender().equalsIgnoreCase("женский"))
+            if (i.getPerson1() == human && (i.getRelation() == Relationship.DAUGHTER || i.getRelation() == Relationship.SON) &&
+                    i.getPerson2().getGender() == Relationship.WOMAN)
                 rez.add(i.getPerson2());
         }
         System.out.println(human + ": Мама" + rez);
-        return rez;
     }
 
-    public ArrayList getDad(Human human) { //поиск папы
+    public void getDad(Human human) { //поиск папы
         ArrayList rez = new ArrayList<Human>();
         for (var i : tree) {
-            if (i.getPerson1() == human && (i.getRelation() == Relationship.daughter || i.getRelation() == Relationship.son) &&
-            i.getPerson2().getGender().equalsIgnoreCase("мужской"))
+            if (i.getPerson1() == human && (i.getRelation() == Relationship.DAUGHTER || i.getRelation() == Relationship.SON) &&
+                    i.getPerson2().getGender() == Relationship.MAN)
                 rez.add(i.getPerson2());
         }
         System.out.println(human + ": Папа" + rez);
-        return rez;
     }
 
-    public ArrayList getParents(Human human) { //поиск родителей
+    public void getParents(Human human) { //поиск родителей
         ArrayList rez = new ArrayList<Human>();
         for (var i : tree) {
-            if (i.getPerson1() == human && (i.getRelation() == Relationship.daughter || i.getRelation() == Relationship.son))
+            if (i.getPerson1() == human && (i.getRelation() == Relationship.DAUGHTER || i.getRelation() == Relationship.SON))
                 rez.add(i.getPerson2());
         }
         System.out.println(human + ": Родители" + rez);
-        return rez;
     }
 
 }

@@ -10,17 +10,17 @@ public class FamilyTree {
     }
 
     public void appendMather(Human human, Human human2) {
-        tree.add(new Communication(human, Relationship.mather, human2));
-        if (human2.getGender().equalsIgnoreCase("мужской")) {
-            tree.add(new Communication(human2, Relationship.son, human));
-        } else tree.add(new Communication(human2, Relationship.daughter, human));
+        tree.add(new Communication(human, Relationship.MATHER, human2));
+        if (human2.getGender() == Relationship.MAN) {
+            tree.add(new Communication(human2, Relationship.SON, human));
+        } else tree.add(new Communication(human2, Relationship.DAUGHTER, human));
     }
 
     public void appendFather(Human human, Human human2) {
-        tree.add(new Communication(human, Relationship.father, human2));
-        if (human2.getGender().equalsIgnoreCase("мужской")) {
-            tree.add(new Communication(human2, Relationship.son, human));
-        } else tree.add(new Communication(human2, Relationship.daughter, human));
+        tree.add(new Communication(human, Relationship.FATHER, human2));
+        if (human2.getGender() == Relationship.MAN) {
+            tree.add(new Communication(human2, Relationship.SON, human));
+        } else tree.add(new Communication(human2, Relationship.DAUGHTER, human));
     }
 
     @Override

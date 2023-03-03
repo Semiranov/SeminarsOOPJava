@@ -67,4 +67,13 @@ public class Research {
         System.out.println(human + ": Родители" + rez);
     }
 
+    public void getOwner(People human) { //поиск хозяина
+        ArrayList rez = new ArrayList<People>();
+        for (var i : tree) {
+            if (i.getPerson2() == human && i.getRelation() == Relationship.OWNER)
+                rez.add(i.getPerson1());
+        }
+        System.out.println(human + ": Хозяин" + rez);
+    }
+
 }

@@ -14,34 +14,32 @@ public class Main {
         Human kira = new Human("Кирилл", 2022, 03, 10, Relationship.MAN);
         Human sveta = new Human("Света", 2021, 05, 11, Relationship.WOMAN);
 
-        Animals bars = new Cat("Барсик", vova);
-        Animals jack = new Dog("Джек", lila);
+        People bars = new Cat("Барсик", vova);
 
         FamilyTree familyTree = new FamilyTree();
-        familyTree.appendMather(lila,zhena);
-        familyTree.appendMather(lila, karina);
-        familyTree.appendMather(lila, luba);
-        familyTree.appendMather(lila, kira);
-        familyTree.appendMather(lila, sveta);
-        familyTree.appendFather(vova,zhena);
-        familyTree.appendFather(vova, karina);
-        familyTree.appendFather(vova, luba);
-        familyTree.appendFather(vova, kira);
-        familyTree.appendFather(vova, sveta);
+        familyTree.append(lila, Relationship.MATHER, zhena);
+        familyTree.append(lila, Relationship.MATHER, karina);
+        familyTree.append(lila, Relationship.MATHER, luba);
+        familyTree.append(lila, Relationship.MATHER, kira);
+        familyTree.append(lila, Relationship.MATHER, sveta);
+
+        familyTree.append(vova, Relationship.FATHER, zhena);
+        familyTree.append(vova, Relationship.FATHER, karina);
+        familyTree.append(vova, Relationship.FATHER, luba);
+        familyTree.append(vova, Relationship.FATHER, kira);
+        familyTree.append(vova, Relationship.FATHER, sveta);
+
+        familyTree.append(lila, Relationship.OWNER, bars);
 
 
-
-        new  Research(familyTree).getSon(lila);
-        new  Research(familyTree).getDaughter(vova);
-        new  Research(familyTree).getSon(vova);
-        new  Research(familyTree).getMom(karina);
-        new  Research(familyTree).getDad(zhena);
-        new  Research(familyTree).getParents(sveta);
-        new  Research(familyTree).getСhild(lila);
-
-
-
-
+        new Research(familyTree).getSon(lila);
+        new Research(familyTree).getDaughter(vova);
+        new Research(familyTree).getSon(vova);
+        new Research(familyTree).getMom(karina);
+        new Research(familyTree).getDad(zhena);
+        new Research(familyTree).getParents(sveta);
+        new Research(familyTree).getСhild(lila);
+        new Research(familyTree).getOwner(bars);
 
 
     }

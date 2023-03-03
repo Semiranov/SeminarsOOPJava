@@ -7,4 +7,5 @@ enum Relationship {
     DAUGHTER,
     MAN,
     WOMAN,
+    OWNER,
 }

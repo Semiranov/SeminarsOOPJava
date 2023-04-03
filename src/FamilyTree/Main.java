@@ -14,7 +14,7 @@ public class Main {
         Human kira = new Human("Кирилл", 2022, 03, 10, Relationship.MAN);
         Human sveta = new Human("Света", 2021, 05, 11, Relationship.WOMAN);
 
-        People bars = new Cat("Барсик", vova);
+        People bars = new Cat("Барсик", Relationship.MAN);
 
         FamilyTree familyTree = new FamilyTree();
         familyTree.append(lila, Relationship.MATHER, zhena);
@@ -38,7 +38,7 @@ public class Main {
         new Research(familyTree).getMom(karina);
         new Research(familyTree).getDad(zhena);
         new Research(familyTree).getParents(sveta);
-        new Research(familyTree).getСhild(lila);
+        new Research(familyTree).getChild(lila);
         new Research(familyTree).getOwner(bars);
 
 

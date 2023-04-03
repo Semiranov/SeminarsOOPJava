@@ -4,19 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7f3109-034d-49c6-8043-ca86331bdef2" name="Changes" comment="add HW2">
-      <change afterPath="$PROJECT_DIR$/src/FamilyTree/Tree.java" afterDir="false" />
+    <list default="true" id="1f7f3109-034d-49c6-8043-ca86331bdef2" name="Changes" comment="add HW2 ubd">
+      <change afterPath="$PROJECT_DIR$/src/Seminar1_1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar1_1/Relations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar1_1/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar1_1/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geoTree/Communication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geoTree/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geoTree/GeoTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geoTree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geoTree/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geoTree/Relationship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geoTree/Research.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FamilyTree/Animals.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FamilyTree/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FamilyTree/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Communication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FamilyTree/Dog.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FamilyTree/FamilyTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/FamilyTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FamilyTree/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FamilyTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FamilyTree/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FamilyTree/Relationship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Relationship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FamilyTree/Research.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Research.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FamilyTree/Tree.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -89,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677795516849</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add HW2 ubd">
+      <created>1677872742570</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677872742570</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -97,6 +111,7 @@
     <MESSAGE value="add HW1" />
     <MESSAGE value="add HW1 update" />
     <MESSAGE value="add HW2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW2" />
+    <MESSAGE value="add HW2 ubd" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW2 ubd" />
   </component>
 </project>

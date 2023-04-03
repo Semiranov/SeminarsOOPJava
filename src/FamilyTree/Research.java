@@ -29,7 +29,7 @@ public class Research {
         System.out.println(human + ": Дочь" + rez);
     }
 
-    public void getСhild(Human human) { //поиск ребенка
+    public void getChild(Human human) { //поиск ребенка
         ArrayList rez = new ArrayList<Human>();
         for (var i : tree) {
             if (i.getPerson1() == human && (i.getRelation() == Relationship.MATHER || i.getRelation() == Relationship.FATHER))

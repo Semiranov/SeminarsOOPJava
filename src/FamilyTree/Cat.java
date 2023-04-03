@@ -1,17 +1,27 @@
 package FamilyTree;
 
-public class Cat extends People{
-    People owner;
-    public Cat(String name, Human owner) {
-        super.setName(name);
-        this.owner = owner;
+import java.time.LocalDate;
+
+public class Cat implements People {
+    private String name;
+    private Relationship gender;
+
+    public Cat(String name, Relationship gender) {
+        this.name = name;
+        this.gender = gender;
+    }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public Relationship getGender() {
+        return gender;
     }
 
     @Override
     public String toString() {
-        return
-                super.getName();
+        return name;
     }
-
-
 }

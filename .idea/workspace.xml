@@ -4,26 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7f3109-034d-49c6-8043-ca86331bdef2" name="Changes" comment="add HW2 ubd">
-      <change afterPath="$PROJECT_DIR$/src/Seminar1_1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar1_1/Relations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar1_1/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar1_1/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geoTree/Communication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geoTree/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geoTree/GeoTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geoTree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geoTree/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geoTree/Relationship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/geoTree/Research.java" afterDir="false" />
+    <list default="true" id="1f7f3109-034d-49c6-8043-ca86331bdef2" name="Changes" comment="add HW1">
+      <change afterPath="$PROJECT_DIR$/src/geoTree/GeoTreeImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geoTree/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FamilyTree/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FamilyTree/FamilyTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/FamilyTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FamilyTree/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Human.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FamilyTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FamilyTree/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/People.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FamilyTree/Research.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FamilyTree/Research.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FamilyTree/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geoTree/GeoTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geoTree/GeoTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geoTree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geoTree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/geoTree/Research.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geoTree/Research.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -51,14 +38,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -103,15 +90,22 @@
       <option name="project" value="LOCAL" />
       <updated>1677872742570</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add HW1">
+      <created>1680563766718</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680563766718</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <MESSAGE value="add HW1" />
     <MESSAGE value="add HW1 update" />
     <MESSAGE value="add HW2" />
     <MESSAGE value="add HW2 ubd" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW2 ubd" />
+    <MESSAGE value="add HW1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW1" />
   </component>
 </project>

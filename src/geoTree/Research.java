@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Research {
     private ArrayList<Communication> tree;
 
-    public Research(GeoTree tree) {
+    public Research(GeoTreeImp tree) {
         this.tree = tree.getTree();
     }
 
@@ -32,4 +32,5 @@ public class Research {
         }
         System.out.println(rezult);
     }
+
 }

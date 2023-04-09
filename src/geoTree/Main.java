@@ -7,7 +7,7 @@ public class Main {
         Person karina = new Person("Карина", 5, Gender.Woman);
         Person zhenya = new Person("Евгений", 2, Gender.Man);
 
-        GeoTree geoTree = new GeoTree();
+        GeoTreeImp geoTree = new GeoTreeImp();
 
         geoTree.append(vladimir, Relationship.FATHER, karina);
         geoTree.append(vladimir, Relationship.FATHER, zhenya);

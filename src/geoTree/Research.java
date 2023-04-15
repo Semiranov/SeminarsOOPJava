@@ -9,28 +9,28 @@ public class Research {
         this.tree = tree.getTree();
     }
 
-    public void getChildren(Person person){
+    public void getChildren(Person person) {
         ArrayList rezult = new ArrayList<Person>();
         for (var i : tree) {
             if (i.getPerson1() == person && (i.getRelation() == Relationship.MATHER ||
-                    i.getRelation() == Relationship.FATHER)){
+                    i.getRelation() == Relationship.FATHER)) {
                 rezult.add(i.getPerson2());
             }
 
         }
-        System.out.println(rezult);
+        System.out.println("Дети у " + person + rezult);
     }
 
-    public void getParents(Person person){
+    public void getParents(Person person) {
         ArrayList rezult = new ArrayList<Person>();
         for (var i : tree) {
             if (i.getPerson1() == person && (i.getRelation() == Relationship.SON ||
-                    i.getRelation() == Relationship.DAUGHTER)){
+                    i.getRelation() == Relationship.DAUGHTER)) {
                 rezult.add(i.getPerson2());
             }
 
         }
-        System.out.println(rezult);
+        System.out.println("Родители у " + person + rezult);
     }
 
 }

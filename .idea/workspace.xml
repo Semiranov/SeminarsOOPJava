@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7f3109-034d-49c6-8043-ca86331bdef2" name="Changes" comment="add HW2">
+    <list default="true" id="1f7f3109-034d-49c6-8043-ca86331bdef2" name="Changes" comment="add HW3">
+      <change afterPath="$PROJECT_DIR$/src/seminar4/Archer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar4/Militia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar4/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar4/Sword.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar4/Swordsman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar4/Warrior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar4/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar4/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geoTree/Research.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/geoTree/Research.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681591690625</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add HW3">
+      <created>1681592751487</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681592751487</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -117,7 +134,8 @@
     <MESSAGE value="add HW2 ubd" />
     <MESSAGE value="add HW1" />
     <MESSAGE value="add HW2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW2" />
+    <MESSAGE value="add HW3" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

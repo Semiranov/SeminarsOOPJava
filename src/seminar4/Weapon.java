@@ -1,5 +1,5 @@
 package seminar4;
 
-public interface Weapon { // Оружие
-   int damage();
+public interface Weapon {
+    int damage();
 }

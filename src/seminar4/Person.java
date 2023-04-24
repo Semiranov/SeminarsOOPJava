@@ -1,17 +1,18 @@
 package seminar4;
 
-public abstract class Person {  // Воин
+public abstract class Person {
     private String name;
     private int hp;
 
-    public Person(String name, int hp) {
+    public Person(String name, int ph) {
         this.name = name;
-        this.hp = hp;
+        this.hp = ph;
     }
 
     public String getName() {
         return name;
     }
+
 
     public int getHp() {
         return hp;

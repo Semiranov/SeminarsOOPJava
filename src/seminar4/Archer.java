@@ -1,10 +1,16 @@
 package seminar4;
 
-public class Archer extends Warrior { // Лучник
-    private int attackDistance;
+public class Archer extends  Warrior <Throwing, Shield> {
+    public Archer(String name, int hp, Throwing trowing, Shield shield) {
+        super(name, hp, trowing, shield = null);
+    }
+    public int getRange(){
+        return random.nextInt(weapon.getDistance() + 1);
+    }
 
-    public Archer(String name, int hp, Weapon weapon, int attackDistance) {
-        super(name, hp, weapon);
-        this.attackDistance = attackDistance;
+    @Override
+    public String toString() {
+        return "Archer " +
+                super.toString();
     }
 }

@@ -1,8 +1,8 @@
 package seminar4;
 
-public abstract class Throwing implements Weapon {
+public abstract class Throwing implements Weapon{
+    private int distance;
 
-    protected int distance;
 
     public Throwing(int distance) {
         this.distance = distance;
@@ -11,17 +11,12 @@ public abstract class Throwing implements Weapon {
     public int getDistance() {
         return distance;
     }
-
     @Override
-    public String toString() {
-        return "Throwing{" +
-                "damage" + damage() +
-                "distance=" + distance +
-                '}';
+    public  String toString(){
+        return "Trowing" +
+                " distance: " + distance +
+                " damage: " + damage();
     }
 
-    @Override
-    public int damage() {
-        return 0;
-    }
+    public abstract boolean block();
 }

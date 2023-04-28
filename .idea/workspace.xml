@@ -4,22 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7f3109-034d-49c6-8043-ca86331bdef2" name="Changes" comment="add HW4">
-      <change afterPath="$PROJECT_DIR$/src/seminar4/Battle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar4/Knife.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar4/Paladin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar4/SecondWeapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar4/Shield.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/seminar4/Team.java" afterDir="false" />
+    <list default="true" id="1f7f3109-034d-49c6-8043-ca86331bdef2" name="Changes" comment="add HW4 upd2">
+      <change afterPath="$PROJECT_DIR$/src/seminar5/CalculateComplex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar5/Calculating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar5/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar5/ComplexNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar5/Controler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar5/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar5/RealNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar5/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar5/ValuesNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/seminar5/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar4/Archer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar4/Archer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar4/Bow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar4/Bow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar4/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar4/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar4/Throwing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar4/Throwing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar4/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar4/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar4/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar4/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar4/main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,15 +44,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "Settings.Markdown"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -135,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681683309977</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add HW4 upd">
+      <created>1682373759563</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682373759563</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,7 +150,8 @@
     <MESSAGE value="add HW2" />
     <MESSAGE value="add HW3" />
     <MESSAGE value="add HW4" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW4" />
+    <MESSAGE value="add HW4 upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW4 upd" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

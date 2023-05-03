@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f7f3109-034d-49c6-8043-ca86331bdef2" name="Changes" comment="add HW5">
-      <change afterPath="$PROJECT_DIR$/src/Seminar6/Calculating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar6/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar6/ComplexNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar6/ConsoleInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar6/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar6/InputData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Seminar6/Main.java" afterDir="false" />
+    <list default="true" id="1f7f3109-034d-49c6-8043-ca86331bdef2" name="Changes" comment="add HW6">
+      <change afterPath="$PROJECT_DIR$/src/Seminar7/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar7/Functions/Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar7/Input/ConsoleInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar7/Input/InputData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar7/MVP/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar7/MVP/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar7/MVP/PrintToConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar7/MVP/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar7/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar7/Objects/ComplexNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar7/Objects/Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar7/Objects/RealNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seminar7/Operations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682689197459</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add HW6">
+      <created>1682864644967</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682864644967</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,7 +168,8 @@
     <MESSAGE value="add HW4" />
     <MESSAGE value="add HW4 upd" />
     <MESSAGE value="add HW5" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HW5" />
+    <MESSAGE value="add HW6" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HW6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
